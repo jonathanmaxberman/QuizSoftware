@@ -1,0 +1,49 @@
+#quiz-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+#question-container,
+#score-display {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#answer-buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#result-container {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.answer.selected {
+  background-color: blue !important;
+}
+
+.correct {
+  background-color: pink;
+}
+
+.answer.selected-wrong {
+  background-color: red;
+}
